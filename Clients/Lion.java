@@ -10,4 +10,13 @@ public class Lion extends Animal{
     public Lion() {
         super();
     }
+    public void Going() {
+        toGo();
+    }
+    public void Swimming() {
+        swim();
+    }
+    public void Flying() {
+        System.out.println(getType() + " can't fly");
+    }
 }

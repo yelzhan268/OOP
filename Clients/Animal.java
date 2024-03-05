@@ -39,6 +39,16 @@ public class Animal {
         sleep();
     }
 
+    protected void toGo() {
+        System.out.println(getType()+ " go");
+    }
+    protected void fly() {
+        System.out.println(getType()+ " fly");
+    }
+    protected void swim() {
+        System.out.println(getType()+ " swim");
+    }
+
     public String getType() {
         return getClass().getSimpleName();
     }

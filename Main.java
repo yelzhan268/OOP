@@ -28,5 +28,6 @@ public class Main {
         animals.add(leva);
         animals.add(spike);
         System.out.println(animals);
+        spike.Going();
     }
 }
