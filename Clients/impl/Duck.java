@@ -7,7 +7,6 @@ import lesson.Clients.Flyable;
 import lesson.Clients.Goable;
 import lesson.Clients.Owner;
 import lesson.Clients.Swimable;
-import java.io.Serializable;
 
 public class Duck extends Animal implements Swimable, Goable, Flyable {
         public Duck(String name, float weight, LocalDate age, Owner owner) {
