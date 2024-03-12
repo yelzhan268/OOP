@@ -28,15 +28,15 @@ public abstract class MedicineComponent implements Comparable<MedicineComponent>
     }
 
 
-    @Override
-    public int compareTo(MedicineComponent o) {
-        // return name.compareTo(o.name);
-        return power - o.power;
-        // return Integer.compare(this.power, o.power)
-        // if (this.power > o.power) {
-        //     return 1;
-        // } else if (this.power < o.power) {
-        //     return -1;
-        // } else return 0;
-    }
+    // @Override
+    // public int compareTo(MedicineComponent o) {
+    //     // return name.compareTo(o.name);
+    //     return power - o.power;
+    //     // return Integer.compare(this.power, o.power)
+    //     // if (this.power > o.power) {
+    //     //     return 1;
+    //     // } else if (this.power < o.power) {
+    //     //     return -1;
+    //     // } else return 0;
+    // }
 }

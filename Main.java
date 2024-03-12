@@ -50,7 +50,7 @@ public class Main {
         medList.add(penicilinium);
         medList.add(vetbicid);
         System.out.println(medList);
-        Collections.sort(medList, (comp1, comp2) -> (int)(comp1.getWeight() - comp2.getWeight()));
+        Collections.sort(medList);
         System.out.println(medList);
         // // Lion leva = new Lion("Лёва", 200, LocalDate.now(), new Owner());
         // // Lion puzo = new Lion("Пуза", 40, LocalDate.of
