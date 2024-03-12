@@ -23,6 +23,10 @@ public abstract class MedicineComponent implements Comparable<MedicineComponent>
     public float getWeight() {
         return weight;
     }
+    public String getName() {
+        return name;
+    }
+
 
     @Override
     public int compareTo(MedicineComponent o) {

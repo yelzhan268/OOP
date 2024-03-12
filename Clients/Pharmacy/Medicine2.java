@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Medicine2 implements Iterable<MedicineComponent> {
+public class Medicine2 implements Iterable<MedicineComponent>, Comparable<Medicine2> {
     private List<MedicineComponent> components;
     private int index;
     public Medicine2() {
@@ -42,5 +42,18 @@ public class Medicine2 implements Iterable<MedicineComponent> {
                 return components.get(index++);
             }
         };
+    }
+
+    public String getComponentName() {
+        String name = null;
+        for (MedicineComponent component : components) {
+            name = component.getName();
+        }
+        return name;
+    }
+
+    @Override
+    public int compareTo(Medicine2 o) {
+        return this.getComponentName.compareTo(o.this.getComponentName);
     }
 }
