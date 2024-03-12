@@ -5,7 +5,6 @@ import java.time.LocalDate;
 import lesson.Clients.Animal;
 
 public class Doctor extends Personal {
-    private Personal personal;
     public Doctor(String name, LocalDate age, LocalDate EmplDate, double salary) {
         super(name, age, EmplDate, salary);
     }
